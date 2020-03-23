@@ -1,6 +1,6 @@
 let num = 25
 
-for (var i = 1; i<num; i++) {
+for (var i = 1; i<num+1; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
     }
